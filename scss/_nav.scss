@@ -1,0 +1,60 @@
+.navColor{
+    background-color: map-get($colorMap, 'amarillot');
+    padding: 5px 30px;
+    position:sticky;
+    top:0;
+    z-index:20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo{
+        width: 30vw;
+    }
+    a{
+        font-family: $fontTitle;
+        font-size: map-get($map: $textSizes, $key:'sm' );
+        font-weight: 400;
+        color: map-get($colorMap, 'negro');
+        &:hover{
+            color: map-get($colorMap, 'naranja');
+        }
+    
+    }
+    
+    .active{
+        color:map-get($colorMap, 'naranja');
+    }
+    
+    .dropdown-menu{
+        background: map-get($map: $colorMap, $key:"amarillo" );
+        .dropdown-item{
+            font-family: $fontText;
+            font-size: map-get($map: $textSizes, $key:'xxs' );
+            color:map-get($colorMap, 'negro');
+            font-weight: 400;
+            &:hover{
+                background-color: map-get($map: $colorMap, $key:'naranja' );
+            }
+
+            &:focus{
+                color: map-get($colorMap, 'narnaja');
+            }
+        }
+    }
+    li{
+        a{
+            .wspicon{
+                width: 2em;
+            }
+        }
+    }
+}
+
+
+
+
+
+    
+
+
+

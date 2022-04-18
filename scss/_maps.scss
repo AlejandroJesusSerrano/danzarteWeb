@@ -1,0 +1,30 @@
+// colorMap
+    $colorMap:(
+    "verde": #269e91,
+    "verdet": rgba(38, 158, 145, .5),
+    "amarillo": #ffefa5,
+    "amarillot": rgba(255, 239, 165, .7),
+    "naranja": #ffaf3b,
+    "rosa": rgb(217, 153, 130),
+    "rosat": rgba(217,153,130,.7),
+    "lila": #a69fbf,
+    "blanco": #ffffff,
+    "negro": #000000
+    );
+        
+// text sizes map
+    $textSizes:(
+        'xxxl': 10em,
+        'xxl': 8em,
+        'xl': 6em,
+        'lg': 4em,
+        'md': 3em,
+        'sm': 2em,
+        'xs': 1.5em,
+        'xxs': 1em,
+        'xxxs': 0.5em
+    );
+// fontsMap 
+    $fontsMap:(
+
+    )

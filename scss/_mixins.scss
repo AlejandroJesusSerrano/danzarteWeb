@@ -1,0 +1,22 @@
+// mixins
+@mixin titles($fontFamily, $fontSize, $lineHeight, $color){
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    color: $color;
+    padding: 2px;
+    text-align: center;
+}
+
+@mixin flex ($justify, $align){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    box-sizing: border-box;
+}
+
+@mixin backDiv ($image, $repeat, $position){
+    background-image: $image;
+    background-repeat: $repeat;
+    background-position: $position;
+}

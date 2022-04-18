@@ -35,10 +35,6 @@
             &:hover{
                 background-color: map-get($map: $colorMap, $key:'naranja' );
             }
-
-            &:focus{
-                color: map-get($colorMap, 'narnaja');
-            }
         }
     }
     li{

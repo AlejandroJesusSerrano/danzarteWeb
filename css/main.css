@@ -7823,7 +7823,7 @@ html {
 .navColor {
   background-color: rgba(255, 239, 165, 0.7);
   padding: 5px 30px;
-  position: sticky;
+  position: absolute;
   top: 0;
   z-index: 20;
   display: flex;
@@ -7832,10 +7832,10 @@ html {
   .navColor .logo {
     width: 30vw; }
   .navColor a {
-    font-family: "Beau Rivage", cursive;
+    font-family: "Belleza", sans-serif;
     font-size: 2em;
     font-weight: 400;
-    color: #000000; }
+    color: #ffffff; }
     .navColor a:hover {
       color: #ffaf3b; }
   .navColor .active {

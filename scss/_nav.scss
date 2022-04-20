@@ -1,7 +1,7 @@
 .navColor{
     background-color: map-get($colorMap, 'amarillot');
     padding: 5px 30px;
-    position:sticky;
+    position:absolute;
     top:0;
     z-index:20;
     display: flex;
@@ -11,10 +11,10 @@
         width: 30vw;
     }
     a{
-        font-family: $fontTitle;
+        font-family: $fontText;
         font-size: map-get($map: $textSizes, $key:'sm' );
         font-weight: 400;
-        color: map-get($colorMap, 'negro');
+        color: map-get($colorMap, 'blanco');
         &:hover{
             color: map-get($colorMap, 'naranja');
         }

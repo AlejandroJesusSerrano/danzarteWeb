@@ -1,0 +1,12 @@
+.secClassTitle{
+    font-family: $fontTitle;
+    font-size: map-get($map: $textSizes, $key:'xxl' );
+    text-align: center;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    color: map-get($map: $colorMap, $key: 'naranja' );
+}
+.secClassTaller{
+    @extend .secClassTitle;
+    color: map-get($map: $colorMap, $key: 'blanco' );
+}

@@ -1,0 +1,42 @@
+.divClass{
+    width: 100%;
+    background-image: url(../img/fondoamarillo.jpg);
+    box-sizing: border-box;
+    border-radius: 2em;
+    img{
+        border-radius: 2em;
+    }
+    figcaption{
+        margin-top: .5em;
+        text-align: center;
+        text-decoration: overline;
+        font-size: map-get($map: $textSizes, $key: 'xs' );
+    }
+}
+
+.divTaller{
+    @extend .divClass;
+    background-image: url(../img/fondo_rosa3.jpg);
+}
+
+
+.divTextClass{
+    background-color: map-get($map: $colorMap, $key:'amarillo' );
+    color: map-get($map: $colorMap, $key: 'negro' );
+    font-family: $fontText;
+    font-size: map-get($map: $textSizes, $key: 'sm' );
+    box-sizing: border-box;
+    border-radius: .5em;
+    text-align: center;
+
+}
+.divTextTaller{
+    background-color: map-get($map: $colorMap, $key:'rosa' );
+    color: map-get($map: $colorMap, $key: 'negro' );
+    font-family: $fontText;
+    font-size: map-get($map: $textSizes, $key: 'sm' );
+    box-sizing: border-box;
+    border-radius: .5em;
+    text-align: center;
+
+}

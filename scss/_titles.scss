@@ -10,3 +10,8 @@
     @extend .secClassTitle;
     color: map-get($map: $colorMap, $key: 'blanco' );
 }
+
+.secClassEventos{
+    @extend .secClassTitle;
+    color: map-get($map: $colorMap, $key:'verde' );
+}

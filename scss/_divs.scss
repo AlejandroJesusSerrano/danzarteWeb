@@ -19,6 +19,11 @@
     background-image: url(../img/fondo_rosa3.jpg);
 }
 
+.divEventos{
+    @extend .divClass;
+    background-image: url(../img/fondo_azul.jpg);
+}
+
 
 .divTextClass{
     background-color: map-get($map: $colorMap, $key:'amarillo' );
@@ -31,12 +36,13 @@
 
 }
 .divTextTaller{
+    @extend .divTextClass;
     background-color: map-get($map: $colorMap, $key:'rosa' );
-    color: map-get($map: $colorMap, $key: 'negro' );
-    font-family: $fontText;
     font-size: map-get($map: $textSizes, $key: 'sm' );
-    box-sizing: border-box;
-    border-radius: .5em;
-    text-align: center;
+}
 
+.divTextEvento{
+    @extend .divTextTaller;
+    background-color: map-get($map: $colorMap, $key: 'verde' );
+    color: map-get($map: $colorMap, $key:'blanco' );
 }

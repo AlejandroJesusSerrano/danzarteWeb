@@ -7820,7 +7820,7 @@ textarea.form-control-lg {
 html {
   font-size: 62.5%; }
 
-.secClassTitle, .secClassTaller {
+.secClassTitle, .secClassTaller, .secClassEventos {
   font-family: "Beau Rivage", cursive;
   font-size: 8em;
   text-align: center;
@@ -7831,8 +7831,11 @@ html {
 .secClassTaller {
   color: #ffffff; }
 
+.secClassEventos {
+  color: #269e91; }
+
 .navColor {
-  background-color: rgba(255, 239, 165, 0.7);
+  background-color: none;
   padding: 5px 30px;
   position: absolute;
   top: 0;
@@ -7877,14 +7880,14 @@ html {
     left: 0;
     width: 100vw; }
 
-.divClass, .divTaller {
+.divClass, .divTaller, .divEventos {
   width: 100%;
   background-image: url(../img/fondoamarillo.jpg);
   box-sizing: border-box;
   border-radius: 2em; }
-  .divClass img, .divTaller img {
+  .divClass img, .divTaller img, .divEventos img {
     border-radius: 2em; }
-  .divClass figcaption, .divTaller figcaption {
+  .divClass figcaption, .divTaller figcaption, .divEventos figcaption {
     margin-top: .5em;
     text-align: center;
     text-decoration: overline;
@@ -7893,7 +7896,10 @@ html {
 .divTaller {
   background-image: url(../img/fondo_rosa3.jpg); }
 
-.divTextClass {
+.divEventos {
+  background-image: url(../img/fondo_azul.jpg); }
+
+.divTextClass, .divTextTaller, .divTextEvento {
   background-color: #ffefa5;
   color: #000000;
   font-family: "Belleza", sans-serif;
@@ -7902,11 +7908,10 @@ html {
   border-radius: .5em;
   text-align: center; }
 
-.divTextTaller {
+.divTextTaller, .divTextEvento {
   background-color: #d99982;
-  color: #000000;
-  font-family: "Belleza", sans-serif;
-  font-size: 2em;
-  box-sizing: border-box;
-  border-radius: .5em;
-  text-align: center; }
+  font-size: 2em; }
+
+.divTextEvento {
+  background-color: #269e91;
+  color: #ffffff; }

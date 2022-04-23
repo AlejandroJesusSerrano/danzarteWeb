@@ -1,0 +1,48 @@
+.footerFlex{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    background-color: map-get($map:$colorMap,$key:'naranja');
+    box-sizing: border-box;
+    
+    .pDiv{
+        display: flex;
+        justify-content: end;
+        align-items: center; 
+        margin-right: 1em;
+        
+        p{
+            font-family: $fontTitle;
+            font-size: map-get($map:$textSizes,$key:'md');
+            color: map-get($map:$colorMap,$key:'blanco');
+            margin-top:1em;
+            @media only screen and (max-width: 362px){
+                font-size: map-get($map:$textSizes,$key:'sm');
+            }
+        }
+    }
+        
+    .iconDiv{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .footerIcon{
+            display: inline-block;
+            .iconFooter{
+                display: inline-block;
+                text-decoration: none;
+                padding: 1em .5em 0 0;
+                width: 4em;
+                box-sizing: border-box;
+                align-items: center;
+                @media only screen and (max-width: 1280px){
+                    width: 3em;
+                }
+            }
+        }
+        
+
+        
+        
+    }
+}

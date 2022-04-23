@@ -7820,6 +7820,9 @@ textarea.form-control-lg {
 html {
   font-size: 62.5%; }
 
+body {
+  background-image: url(../img/background.png); }
+
 .secClassTitle, .secClassTaller, .secClassEventos {
   font-family: "Beau Rivage", cursive;
   font-size: 8em;
@@ -7834,7 +7837,7 @@ html {
 .secClassEventos {
   color: #269e91; }
 
-.navColor {
+.navColor, .navColory {
   background-color: none;
   padding: 5px 30px;
   position: absolute;
@@ -7843,28 +7846,31 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center; }
-  .navColor .logo {
+  .navColor .logo, .navColory .logo {
     width: 30vw; }
-  .navColor a {
+  .navColor a, .navColory a {
     font-family: "Belleza", sans-serif;
     font-size: 2em;
     font-weight: 400;
     color: #ffffff; }
-    .navColor a:hover {
+    .navColor a:hover, .navColory a:hover {
       color: #ffaf3b; }
-  .navColor .active {
+  .navColor .active, .navColory .active {
     color: #ffaf3b; }
-  .navColor .dropdown-menu {
+  .navColor .dropdown-menu, .navColory .dropdown-menu {
     background: #ffefa5; }
-    .navColor .dropdown-menu .dropdown-item {
+    .navColor .dropdown-menu .dropdown-item, .navColory .dropdown-menu .dropdown-item {
       font-family: "Belleza", sans-serif;
       font-size: 1em;
       color: #000000;
       font-weight: 400; }
-      .navColor .dropdown-menu .dropdown-item:hover {
+      .navColor .dropdown-menu .dropdown-item:hover, .navColory .dropdown-menu .dropdown-item:hover {
         background-color: #ffaf3b; }
-  .navColor li a .wspicon {
+  .navColor li a .wspicon, .navColory li a .wspicon {
     width: 2em; }
+
+.navColory {
+  background-color: #ffaf3b; }
 
 .videoContainer {
   position: absolute;
@@ -7915,3 +7921,39 @@ html {
 .divTextEvento {
   background-color: #269e91;
   color: #ffffff; }
+
+.footerFlex {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  background-color: #ffaf3b;
+  box-sizing: border-box; }
+  .footerFlex .pDiv {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 1em; }
+    .footerFlex .pDiv p {
+      font-family: "Beau Rivage", cursive;
+      font-size: 3em;
+      color: #ffffff;
+      margin-top: 1em; }
+      @media only screen and (max-width: 362px) {
+        .footerFlex .pDiv p {
+          font-size: 2em; } }
+  .footerFlex .iconDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .footerFlex .iconDiv .footerIcon {
+      display: inline-block; }
+      .footerFlex .iconDiv .footerIcon .iconFooter {
+        display: inline-block;
+        text-decoration: none;
+        padding: 1em .5em 0 0;
+        width: 4em;
+        box-sizing: border-box;
+        align-items: center; }
+        @media only screen and (max-width: 1280px) {
+          .footerFlex .iconDiv .footerIcon .iconFooter {
+            width: 3em; } }

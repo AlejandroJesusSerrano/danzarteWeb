@@ -45,6 +45,10 @@
         }
     }
 }
+.navColory{
+    @extend .navColor;
+        background-color: map-get($map: $colorMap, $key: 'naranja' );   
+}
 
 
 

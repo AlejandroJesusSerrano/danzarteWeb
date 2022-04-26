@@ -7821,7 +7821,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  background-image: url(../img/background.png); }
+  background-image: url(../img/background3.png); }
 
 .secClassTitle, .secClassTaller, .secClassEventos {
   font-family: "Beau Rivage", cursive;
@@ -7832,45 +7832,42 @@ body {
   color: #ffaf3b; }
 
 .secClassTaller {
-  color: #ffffff; }
+  color: #d99982; }
 
 .secClassEventos {
   color: #269e91; }
 
-.navColor, .navColory {
-  background-color: none;
+.navColor {
+  background-color: rgba(255, 175, 59, 0.3);
   padding: 5px 30px;
-  position: absolute;
+  position: sticky;
   top: 0;
   z-index: 20;
   display: flex;
   justify-content: space-between;
   align-items: center; }
-  .navColor .logo, .navColory .logo {
+  .navColor .logo {
     width: 30vw; }
-  .navColor a, .navColory a {
+  .navColor a {
     font-family: "Belleza", sans-serif;
     font-size: 2em;
     font-weight: 400;
-    color: #ffffff; }
-    .navColor a:hover, .navColory a:hover {
+    color: #000000; }
+    .navColor a:hover {
       color: #ffaf3b; }
-  .navColor .active, .navColory .active {
+  .navColor .active {
     color: #ffaf3b; }
-  .navColor .dropdown-menu, .navColory .dropdown-menu {
+  .navColor .dropdown-menu {
     background: #ffefa5; }
-    .navColor .dropdown-menu .dropdown-item, .navColory .dropdown-menu .dropdown-item {
+    .navColor .dropdown-menu .dropdown-item {
       font-family: "Belleza", sans-serif;
       font-size: 1em;
       color: #000000;
       font-weight: 400; }
-      .navColor .dropdown-menu .dropdown-item:hover, .navColory .dropdown-menu .dropdown-item:hover {
+      .navColor .dropdown-menu .dropdown-item:hover {
         background-color: #ffaf3b; }
-  .navColor li a .wspicon, .navColory li a .wspicon {
+  .navColor li a .wspicon {
     width: 2em; }
-
-.navColory {
-  background-color: #ffaf3b; }
 
 .videoContainer {
   position: absolute;
@@ -7888,7 +7885,6 @@ body {
 
 .divClass, .divTaller, .divEventos {
   width: 100%;
-  background-image: url(../img/fondoamarillo.jpg);
   box-sizing: border-box;
   border-radius: 2em; }
   .divClass img, .divTaller img, .divEventos img {
@@ -7899,14 +7895,8 @@ body {
     text-decoration: overline;
     font-size: 1.5em; }
 
-.divTaller {
-  background-image: url(../img/fondo_rosa3.jpg); }
-
-.divEventos {
-  background-image: url(../img/fondo_azul.jpg); }
-
 .divTextClass, .divTextTaller, .divTextEvento {
-  background-color: #ffefa5;
+  background-color: #ffaf3b;
   color: #000000;
   font-family: "Belleza", sans-serif;
   font-size: 2em;
@@ -7947,7 +7937,7 @@ body {
     align-items: center; }
     .footerFlex .iconDiv .footerIcon {
       display: inline-block; }
-      .footerFlex .iconDiv .footerIcon .iconFooter {
+      .footerFlex .iconDiv .footerIcon img {
         display: inline-block;
         text-decoration: none;
         padding: 1em .5em 0 0;
@@ -7955,5 +7945,5 @@ body {
         box-sizing: border-box;
         align-items: center; }
         @media only screen and (max-width: 1280px) {
-          .footerFlex .iconDiv .footerIcon .iconFooter {
+          .footerFlex .iconDiv .footerIcon img {
             width: 3em; } }

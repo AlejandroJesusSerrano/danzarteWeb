@@ -1,7 +1,7 @@
 .navColor{
-    background-color: none;
+    background-color: map-get($map: $colorMap, $key:'naranjat' );
     padding: 5px 30px;
-    position:absolute;
+    position:sticky;
     top:0;
     z-index:20;
     display: flex;
@@ -14,10 +14,11 @@
         font-family: $fontText;
         font-size: map-get($map: $textSizes, $key:'sm' );
         font-weight: 400;
-        color: map-get($colorMap, 'blanco');
+        color: map-get($colorMap, 'negro');
         &:hover{
             color: map-get($colorMap, 'naranja');
         }
+
     
     }
     
@@ -45,10 +46,7 @@
         }
     }
 }
-.navColory{
-    @extend .navColor;
-        background-color: map-get($map: $colorMap, $key: 'naranja' );   
-}
+
 
 
 

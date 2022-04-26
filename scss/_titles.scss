@@ -8,7 +8,7 @@
 }
 .secClassTaller{
     @extend .secClassTitle;
-    color: map-get($map: $colorMap, $key: 'blanco' );
+    color: map-get($map: $colorMap, $key: 'rosa' );
 }
 
 .secClassEventos{
